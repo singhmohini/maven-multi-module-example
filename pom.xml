@@ -10,20 +10,20 @@
         <module>app</module>
     </modules>
      <scm>
-       <connection>scm:https://github.com/jyotiupadhyay/maven-multi-module-example.git</connection>
-       <url>https://github.com/jyotiupadhyay/maven-multi-module-example.git</url>
-       <developerConnection>scm:git:https://github.com/jyotiupadhyay/maven-multi-module-example.git</developerConnection>
+       <connection>scm:https://github.com/singhmohini/maven-multi-module-example.git</connection>
+       <url>https://github.com/singhmohini/maven-multi-module-example.git</url>
+       <developerConnection>scm:git:https://github.com/singhmohini/maven-multi-module-example.git</developerConnection>
       <tag>rel-1.0</tag>
   </scm>
 
 <distributionManagement>
    <snapshotRepository>
       <id>nexus</id>
-      <url>http://3.7.28.51:8081/nexus/content/repositories/snapshots</url>
+      <url>http://3.133.138.112:8081/nexus/content/repositories/snapshots</url>
    </snapshotRepository>
    <repository>
       <id>nexus</id>
-      <url>http://3.7.28.51:8081/nexus/content/repositories/releases</url>
+      <url>http://3.133.138.112:8081/nexus/content/repositories/releases</url>
    </repository>
 </distributionManagement>
 
